@@ -329,7 +329,10 @@
     text-transform: uppercase;
     cursor: pointer;
     font-weight: 700;
-
+    transition: all .3s ease;
+}
+.main-ctiet-sp-right-title:hover{
+    background-color: #888;
 }
 .main-ctiet-sp-right-content1-title{
  width: 100%;
@@ -580,9 +583,8 @@ margin-right: 10px;
     margin: 20px;
     width: 100%;
     height: auto;
-    background-color: #fff;
+    background-color: rgba(209, 190, 190, 0.2);
     margin-left: 20px;
-    border: 1px solid #000;
     font-size:13px;
     border-radius: 5px;
 }
