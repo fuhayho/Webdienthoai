@@ -740,6 +740,9 @@ header{
 .dropdown-lv2-item:hover{
     color:#fd4a12;      
 }
+.dropdown-lv2-item a:hover{
+    color:#fd4a12;
+}
 .dropdown-lv2-item{
     cursor: pointer;
     padding: 20px;
@@ -762,6 +765,9 @@ header{
     display: none;
 }
 .dropdown-lv3-item:hover{
+    color:#fd4a12
+}
+.dropdown-lv3-item a:hover{
     color:#fd4a12
 }
 .dropdown-lv3-item{
@@ -884,7 +890,12 @@ header{
     font-weight: 400;
     border:1px solid rgb(0, 0, 0 ,0.3);
     padding : 13px;
-    color: rgb(99, 89, 89)
+    color: rgb(99, 89, 89);
+    transition: 0.5s;
+  }
+  .new-feed-content-list-video-info:hover{
+    letter-spacing: 0.05rem;
+    cursor: pointer;
   }
   .col1-3{
       padding-left: 50px;
