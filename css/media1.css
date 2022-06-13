@@ -392,5 +392,10 @@
     .col_sanpham2{
         margin-top: 30px;
     }
-
+    .banner-content3{
+        opacity: 0;
+    }
+    .new-feed-content-list-video-info{
+        margin-top: 30px;
+    }
 }
