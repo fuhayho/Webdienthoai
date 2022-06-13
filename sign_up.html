@@ -2,49 +2,50 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
     <title>ĐĂNG KÝ</title>
     <link rel="stylesheet" href="style/style_sign_up.css">
 </head>
 <body>
-    <main>
-        <h1>Tạo Tài Khoản</h1>
-        <div class="social-media">
-            <a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin">
-                <img src="assets/google.png" alt="Google">
-            </a>
-            <a href="https://www.facebook.com/">
-                <img src="assets/facebook.png" alt="Facebook">
-            </a>
-        </div>
-
-        <div class="alternative">
-            <span>Hay</span>
-        </div>
-
+    <main class="container">
+        <h2>Đăng ký</h2>
         <form action="">
-            <label for="name">
-                <span>Nhập Username</span>
-                <input type="text" id="name" name="name">
-            </label>
+            <div class="input-field">
+                <input type="text" name="username" id="username" placeholder="Nhập Username">
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="password" name="password" id="password" placeholder="Nhập Password">
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="password" name="password" id="repassword" placeholder="Nhập lại Password">
+                <div class="underline"></div>
+            </div>
 
-            <label for="email">
-                <span>Nhập Email</span>
-                <input type="email" id="email" name="email">
-            </label>
-
-            <label for="password">
-                <span>Nhập Password</span>
-                <input type="password" id="password" name="password">
-            </label>
-
-            <input type="submit" value="Đăng Ký" id="button">
+            <input type="submit" value="Đăng ký">
         </form>
+
+        <div class="footer">
+            <span>Đăng ký bằng mạng xã hội</span>
+            <div class="social-fields">
+                <div class="social-field twitter">
+                    <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+                </div>
+                <div class="social-field facebook">
+                    <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+                </div>
+            </div>
+			<br>
+            <span>Đã có tài khoản</span><br>
+			<span>Đăng nhập tài khoản </span>
+            <div class="social-fields">
+                <div class="social-field sign_up">
+                    <a href="./login.html"><i class="fab fa-sign_up"></i>Đăng nhập</a>
+                </div>
+            </div>			
+        </div>
     </main>
-    <section class="images">
-        <img src="assets/mobile.svg" alt="Mobile">
-        <div class="circle"></div>
-    </section>
 </body>
 </html>
